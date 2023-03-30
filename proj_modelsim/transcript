@@ -1,0 +1,83 @@
+# Compile of ALU.v was successful.
+# Compile of ALU_Decoder.v was successful.
+# Compile of Bit_Rate_Pulse.v was successful.
+# Compile of Control_Signals.v was successful with warnings.
+# Compile of Control_Unit.v was successful.
+# Compile of Counter_Param.v was successful.
+# Compile of Data_Memory.v was successful.
+# Compile of Data_Path.v was successful.
+# Compile of Decoder.v was successful.
+# Compile of Decoder_Onehot.v was successful.
+# Compile of FF_D_2enable.v was successful.
+# Compile of FF_D_enable.v was successful.
+# Compile of FSM_UART_rx.v was successful.
+# Compile of FSM_UART_tx.v was successful.
+# Compile of GPIO.v was successful.
+# Compile of Memory_Controller.v was successful.
+# Compile of Memory_System.v was successful.
+# Compile of Mux.v was successful.
+# Compile of Mux2x1.v was successful.
+# Compile of Mux4x1.v was successful.
+# Compile of Program_Memory.v was successful.
+# Compile of Reg_File.v was successful.
+# Compile of Reg_param.v was successful.
+# Compile of Register.v was successful.
+# Compile of Riscv_Multi_Cycle.v was successful.
+# Compile of Riscv_Multi_Cycle_tb.v was successful.
+# Compile of rv32i_imm_gen.v was successful.
+# Compile of RXshift_register.v was successful.
+# Compile of TXshift_register.v was successful.
+# Compile of UART.v was successful.
+# Compile of UART_RX.v was successful.
+# Compile of UART_TX.v was successful.
+# 32 compiles, 0 failed with no errors.
+vsim -voptargs=+acc work.Riscv_Multi_Cycle_tb
+# vsim -voptargs="+acc" work.Riscv_Multi_Cycle_tb 
+# Start time: 23:34:14 on Mar 29,2023
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Note: (vopt-143) Recognized 1 FSM in module "Control_Signals(fast)".
+# ** Note: (vopt-143) Recognized 1 FSM in module "FSM_UART_rx(fast)".
+# ** Note: (vopt-143) Recognized 1 FSM in module "FSM_UART_tx(fast)".
+# ** Warning: C:/My_Designs/QuartusPrime/RISC_V_Multi_Cycle/src/Riscv_Multi_Cycle_tb.v(19): (vopt-2685) [TFMPC] - Too few port connections for 'UUT'.  Expected 7, found 6.
+# ** Warning: C:/My_Designs/QuartusPrime/RISC_V_Multi_Cycle/src/Riscv_Multi_Cycle_tb.v(19): (vopt-2718) [TFMPC] - Missing connection for port 'clk_out'.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=2.
+# Loading work.Riscv_Multi_Cycle_tb(fast)
+# Loading work.Riscv_Multi_Cycle(fast)
+# Loading work.Control_Unit(fast)
+# Loading work.Control_Signals(fast)
+# Loading work.ALU_Decoder(fast)
+# Loading work.Data_Path(fast)
+# Loading work.Reg_param(fast)
+# Loading work.Mux2x1(fast)
+# Loading work.Memory_Controller(fast)
+# Loading work.Mux4x1(fast)
+# Loading work.Data_Memory(fast)
+# Loading work.UART(fast)
+# Loading work.Register(fast)
+# Loading work.UART_TX(fast)
+# Loading work.Bit_Rate_Pulse(fast)
+# Loading work.FSM_UART_tx(fast)
+# Loading work.Counter_Param(fast)
+# Loading work.TXshift_register(fast)
+# Loading work.FF_D_2enable(fast)
+# Loading work.UART_RX(fast)
+# Loading work.Bit_Rate_Pulse(fast__1)
+# Loading work.FSM_UART_rx(fast)
+# Loading work.FF_D_enable(fast)
+# Loading work.RXshift_register(fast)
+# Loading work.GPIO(fast)
+# Loading work.Program_Memory(fast)
+# Loading work.Decoder(fast)
+# Loading work.Reg_param(fast__1)
+# Loading work.Reg_param(fast__2)
+# Loading work.Reg_param(fast__3)
+# Loading work.Reg_param(fast__4)
+# Loading work.Reg_param(fast__5)
+# Loading work.rv32i_imm_gen(fast)
+# Loading work.Reg_File(fast)
+# Loading work.Decoder_Onehot(fast)
+# Loading work.Reg_param(fast__6)
+# Loading work.Mux(fast)
+# Loading work.ALU(fast)
+# End time: 23:36:45 on Mar 29,2023, Elapsed time: 0:02:31
+# Errors: 0, Warnings: 7

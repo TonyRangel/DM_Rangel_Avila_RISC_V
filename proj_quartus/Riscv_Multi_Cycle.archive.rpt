@@ -1,0 +1,144 @@
+Archive Project report for Riscv_Multi_Cycle
+Thu Mar 30 00:18:24 2023
+Quartus Prime Version 21.1.1 Build 850 06/23/2022 SJ Lite Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Archive Project Summary
+  3. Archive Project Messages
+  4. Files Archived
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 2022  Intel Corporation. All rights reserved.
+Your use of Intel Corporation's design tools, logic functions 
+and other software and tools, and any partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Intel Program License 
+Subscription Agreement, the Intel Quartus Prime License Agreement,
+the Intel FPGA IP License Agreement, or other applicable license
+agreement, including, without limitation, that your use is for
+the sole purpose of programming logic devices manufactured by
+Intel and sold by Intel or its authorized distributors.  Please
+refer to the applicable agreement for further details, at
+https://fpgasoftware.intel.com/eula.
+
+
+
++----------------------------------------------------------------+
+; Archive Project Summary                                        ;
++------------------------+---------------------------------------+
+; Archive Project Status ; Successful - Thu Mar 30 00:18:24 2023 ;
+; Revision Name          ; Riscv_Multi_Cycle                     ;
+; Top-level Entity Name  ; Riscv_Multi_Cycle                     ;
+; Family                 ; Cyclone V                             ;
++------------------------+---------------------------------------+
+
+
++--------------------------+
+; Archive Project Messages ;
++--------------------------+
+Info: File Set 'Source control' contains:
+    Info: Project source and settings files
+    Info: Automatically detected source files
+Warning: Hierarchical Platform Designer systems and custom IP components(_hw.tcl and associated files) are not archived by the Quartus Archiver
+Info: Archive will store files relative to the closest common parent directory
+Info (13213): Using common directory C:/My_Designs/QuartusPrime/
+Info: ----------------------------------------------------------
+Info: ----------------------------------------------------------
+Info: Generated archive 'C:/My_Designs/QuartusPrime/RISC_V_Multi_Cycle/proj_quartus/Riscv_Multi_Cycle.qar'
+Info: ----------------------------------------------------------
+Info: ----------------------------------------------------------
+Info: Generated report 'Riscv_Multi_Cycle.archive.rpt'
+Info (23030): Evaluation of Tcl script c:/intelfpga_lite/21.1/quartus/common/tcl/apps/qpm/qar.tcl was successful
+Info: Quartus Prime Shell was successful. 0 errors, 1 warning
+    Info: Peak virtual memory: 4843 megabytes
+    Info: Processing ended: Thu Mar 30 00:18:24 2023
+    Info: Elapsed time: 00:00:01
+    Info: Total CPU time (on all processors): 00:00:01
+
+
++-------------------------------------------------------------------------------------------------+
+; Files Archived                                                                                  ;
++-------------------------------------------------------------------------------------------------+
+; File Name                                                                                       ;
++-------------------------------------------------------------------------------------------------+
+; ../src/ALU.v                                                                                    ;
+; ../src/ALU_Decoder.v                                                                            ;
+; ../src/Bit_Rate_Pulse.v                                                                         ;
+; ../src/Control_Signals.v                                                                        ;
+; ../src/Control_Unit.v                                                                           ;
+; ../src/Counter_Param.v                                                                          ;
+; ../src/Data_Memory.v                                                                            ;
+; ../src/Data_Path.v                                                                              ;
+; ../src/Decoder.v                                                                                ;
+; ../src/Decoder_Onehot.v                                                                         ;
+; ../src/FF_D_2enable.v                                                                           ;
+; ../src/FF_D_enable.v                                                                            ;
+; ../src/FSM_UART_rx.v                                                                            ;
+; ../src/FSM_UART_tx.v                                                                            ;
+; ../src/GPIO.v                                                                                   ;
+; ../src/Memory_Controller.v                                                                      ;
+; ../src/Memory_System.v                                                                          ;
+; ../src/Mux.v                                                                                    ;
+; ../src/Mux2x1.v                                                                                 ;
+; ../src/Mux4x1.v                                                                                 ;
+; ../src/Program_Memory.v                                                                         ;
+; ../src/Reg_File.v                                                                               ;
+; ../src/Reg_param.v                                                                              ;
+; ../src/Register.v                                                                               ;
+; ../src/Riscv_Multi_Cycle.v                                                                      ;
+; ../src/Riscv_Multi_Cycle_tb.v                                                                   ;
+; ../src/rv32i_imm_gen.v                                                                          ;
+; ../src/RXshift_register.v                                                                       ;
+; ../src/TXshift_register.v                                                                       ;
+; ../src/UART.v                                                                                   ;
+; ../src/UART_RX.v                                                                                ;
+; ../src/UART_TX.v                                                                                ;
+; /my_designs/quartusprime/riscv_multi_cycle/riscv_multi_cycle/quartus_project/factorial_uart.txt ;
+; c:/intelfpga_lite/21.1/quartus/bin64/assignment_defaults.qdf                                    ;
+; C:/My_Designs/QuartusPrime/RISC_V_Multi_Cycle/src/ALU.v                                         ;
+; C:/My_Designs/QuartusPrime/RISC_V_Multi_Cycle/src/ALU_Decoder.v                                 ;
+; C:/My_Designs/QuartusPrime/RISC_V_Multi_Cycle/src/Bit_Rate_Pulse.v                              ;
+; C:/My_Designs/QuartusPrime/RISC_V_Multi_Cycle/src/Control_Signals.v                             ;
+; C:/My_Designs/QuartusPrime/RISC_V_Multi_Cycle/src/Control_Unit.v                                ;
+; C:/My_Designs/QuartusPrime/RISC_V_Multi_Cycle/src/Counter_Param.v                               ;
+; C:/My_Designs/QuartusPrime/RISC_V_Multi_Cycle/src/Data_Memory.v                                 ;
+; C:/My_Designs/QuartusPrime/RISC_V_Multi_Cycle/src/Data_Path.v                                   ;
+; C:/My_Designs/QuartusPrime/RISC_V_Multi_Cycle/src/Decoder.v                                     ;
+; C:/My_Designs/QuartusPrime/RISC_V_Multi_Cycle/src/Decoder_Onehot.v                              ;
+; C:/My_Designs/QuartusPrime/RISC_V_Multi_Cycle/src/FF_D_2enable.v                                ;
+; C:/My_Designs/QuartusPrime/RISC_V_Multi_Cycle/src/FF_D_enable.v                                 ;
+; C:/My_Designs/QuartusPrime/RISC_V_Multi_Cycle/src/FSM_UART_rx.v                                 ;
+; C:/My_Designs/QuartusPrime/RISC_V_Multi_Cycle/src/FSM_UART_tx.v                                 ;
+; C:/My_Designs/QuartusPrime/RISC_V_Multi_Cycle/src/GPIO.v                                        ;
+; C:/My_Designs/QuartusPrime/RISC_V_Multi_Cycle/src/Memory_Controller.v                           ;
+; C:/My_Designs/QuartusPrime/RISC_V_Multi_Cycle/src/Memory_System.v                               ;
+; C:/My_Designs/QuartusPrime/RISC_V_Multi_Cycle/src/Mux.v                                         ;
+; C:/My_Designs/QuartusPrime/RISC_V_Multi_Cycle/src/Mux2x1.v                                      ;
+; C:/My_Designs/QuartusPrime/RISC_V_Multi_Cycle/src/Mux4x1.v                                      ;
+; C:/My_Designs/QuartusPrime/RISC_V_Multi_Cycle/src/Program_Memory.v                              ;
+; C:/My_Designs/QuartusPrime/RISC_V_Multi_Cycle/src/Reg_File.v                                    ;
+; C:/My_Designs/QuartusPrime/RISC_V_Multi_Cycle/src/Reg_param.v                                   ;
+; C:/My_Designs/QuartusPrime/RISC_V_Multi_Cycle/src/Register.v                                    ;
+; C:/My_Designs/QuartusPrime/RISC_V_Multi_Cycle/src/Riscv_Multi_Cycle.v                           ;
+; C:/My_Designs/QuartusPrime/RISC_V_Multi_Cycle/src/Riscv_Multi_Cycle_tb.v                        ;
+; C:/My_Designs/QuartusPrime/RISC_V_Multi_Cycle/src/rv32i_imm_gen.v                               ;
+; C:/My_Designs/QuartusPrime/RISC_V_Multi_Cycle/src/RXshift_register.v                            ;
+; C:/My_Designs/QuartusPrime/RISC_V_Multi_Cycle/src/TXshift_register.v                            ;
+; C:/My_Designs/QuartusPrime/RISC_V_Multi_Cycle/src/UART.v                                        ;
+; C:/My_Designs/QuartusPrime/RISC_V_Multi_Cycle/src/UART_RX.v                                     ;
+; C:/My_Designs/QuartusPrime/RISC_V_Multi_Cycle/src/UART_TX.v                                     ;
+; Riscv_Multi_Cycle.qpf                                                                           ;
+; Riscv_Multi_Cycle.qsf                                                                           ;
++-------------------------------------------------------------------------------------------------+
+
+

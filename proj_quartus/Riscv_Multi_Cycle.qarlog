@@ -1,0 +1,47 @@
+Quartus Prime Archive log --	C:/My_Designs/QuartusPrime/RISC_V_Multi_Cycle/proj_quartus/Riscv_Multi_Cycle.qarlog
+
+Archive:	C:/My_Designs/QuartusPrime/RISC_V_Multi_Cycle/proj_quartus/Riscv_Multi_Cycle.qar
+Date:		Thu Mar 30 00:18:24 2023
+Quartus Prime		21.1.1 Build 850 06/23/2022 SJ Lite Edition
+
+	=========== Files Selected: ===========
+C:/My_Designs/QuartusPrime/RISC_V_Multi_Cycle/proj_quartus/Riscv_Multi_Cycle.qpf
+C:/My_Designs/QuartusPrime/RISC_V_Multi_Cycle/proj_quartus/Riscv_Multi_Cycle.qsf
+C:/My_Designs/QuartusPrime/RISC_V_Multi_Cycle/src/ALU.v
+C:/My_Designs/QuartusPrime/RISC_V_Multi_Cycle/src/ALU_Decoder.v
+C:/My_Designs/QuartusPrime/RISC_V_Multi_Cycle/src/Bit_Rate_Pulse.v
+C:/My_Designs/QuartusPrime/RISC_V_Multi_Cycle/src/Control_Signals.v
+C:/My_Designs/QuartusPrime/RISC_V_Multi_Cycle/src/Control_Unit.v
+C:/My_Designs/QuartusPrime/RISC_V_Multi_Cycle/src/Counter_Param.v
+C:/My_Designs/QuartusPrime/RISC_V_Multi_Cycle/src/Data_Memory.v
+C:/My_Designs/QuartusPrime/RISC_V_Multi_Cycle/src/Data_Path.v
+C:/My_Designs/QuartusPrime/RISC_V_Multi_Cycle/src/Decoder.v
+C:/My_Designs/QuartusPrime/RISC_V_Multi_Cycle/src/Decoder_Onehot.v
+C:/My_Designs/QuartusPrime/RISC_V_Multi_Cycle/src/FF_D_2enable.v
+C:/My_Designs/QuartusPrime/RISC_V_Multi_Cycle/src/FF_D_enable.v
+C:/My_Designs/QuartusPrime/RISC_V_Multi_Cycle/src/FSM_UART_rx.v
+C:/My_Designs/QuartusPrime/RISC_V_Multi_Cycle/src/FSM_UART_tx.v
+C:/My_Designs/QuartusPrime/RISC_V_Multi_Cycle/src/GPIO.v
+C:/My_Designs/QuartusPrime/RISC_V_Multi_Cycle/src/Memory_Controller.v
+C:/My_Designs/QuartusPrime/RISC_V_Multi_Cycle/src/Memory_System.v
+C:/My_Designs/QuartusPrime/RISC_V_Multi_Cycle/src/Mux.v
+C:/My_Designs/QuartusPrime/RISC_V_Multi_Cycle/src/Mux2x1.v
+C:/My_Designs/QuartusPrime/RISC_V_Multi_Cycle/src/Mux4x1.v
+C:/My_Designs/QuartusPrime/RISC_V_Multi_Cycle/src/Program_Memory.v
+C:/My_Designs/QuartusPrime/RISC_V_Multi_Cycle/src/RXshift_register.v
+C:/My_Designs/QuartusPrime/RISC_V_Multi_Cycle/src/Reg_File.v
+C:/My_Designs/QuartusPrime/RISC_V_Multi_Cycle/src/Reg_param.v
+C:/My_Designs/QuartusPrime/RISC_V_Multi_Cycle/src/Register.v
+C:/My_Designs/QuartusPrime/RISC_V_Multi_Cycle/src/Riscv_Multi_Cycle.v
+C:/My_Designs/QuartusPrime/RISC_V_Multi_Cycle/src/Riscv_Multi_Cycle_tb.v
+C:/My_Designs/QuartusPrime/RISC_V_Multi_Cycle/src/TXshift_register.v
+C:/My_Designs/QuartusPrime/RISC_V_Multi_Cycle/src/UART.v
+C:/My_Designs/QuartusPrime/RISC_V_Multi_Cycle/src/UART_RX.v
+C:/My_Designs/QuartusPrime/RISC_V_Multi_Cycle/src/UART_TX.v
+C:/My_Designs/QuartusPrime/RISC_V_Multi_Cycle/src/rv32i_imm_gen.v
+C:/my_designs/quartusprime/riscv_multi_cycle/riscv_multi_cycle/quartus_project/factorial_uart.txt
+c:/intelfpga_lite/21.1/quartus/bin64/assignment_defaults.qdf
+	======= Total: 36 files to archive =======
+
+	================ Status: ===============
+All files archived successfully.

@@ -1,0 +1,757 @@
+m255
+K4
+z2
+!s99 nomlopt
+!s11f vlog 2021.2 2021.04, Apr 14 2021
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA_lite/21.1
+T_opt
+!s110 1680154454
+V73iHIh0lmU73DE_;85OTV2
+04 20 4 work Riscv_Multi_Cycle_tb fast 0
+=1-98e7432a607c-64251f56-1ff-d08
+!s124 OEM10U104 
+o-quiet -auto_acc_if_foreign -work work +acc
+Z0 tCvgOpt 0
+n@_opt
+OL;O;2021.2;73
+vALU
+Z1 !s110 1680154250
+!i10b 1
+!s100 CdbFi<dH_=NX@z[551V@B1
+I_K14:?`[miEb<<[kXhzB11
+Z2 dC:/My_Designs/QuartusPrime/RISC_V_Multi_Cycle/proj_modelsim
+w1678512463
+8C:/My_Designs/QuartusPrime/RISC_V_Multi_Cycle/src/ALU.v
+FC:/My_Designs/QuartusPrime/RISC_V_Multi_Cycle/src/ALU.v
+!i122 0
+Z3 L0 7 27
+Z4 VDg1SIo80bB@j0V0VzS_@n1
+Z5 OL;L;2021.2;73
+r1
+!s85 0
+31
+Z6 !s108 1680154250.000000
+!s107 C:/My_Designs/QuartusPrime/RISC_V_Multi_Cycle/src/ALU.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/My_Designs/QuartusPrime/RISC_V_Multi_Cycle/src/ALU.v|
+!i113 0
+Z7 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R0
+n@a@l@u
+vALU_Decoder
+R1
+!i10b 1
+!s100 1XHTLLK2iWg<SZ_[_8[850
+IMgMVz@7f24Y]U5a1k02jL0
+R2
+w1680074215
+8C:/My_Designs/QuartusPrime/RISC_V_Multi_Cycle/src/ALU_Decoder.v
+FC:/My_Designs/QuartusPrime/RISC_V_Multi_Cycle/src/ALU_Decoder.v
+!i122 1
+L0 1 75
+R4
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/My_Designs/QuartusPrime/RISC_V_Multi_Cycle/src/ALU_Decoder.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/My_Designs/QuartusPrime/RISC_V_Multi_Cycle/src/ALU_Decoder.v|
+!i113 0
+R7
+R0
+n@a@l@u_@decoder
+vBit_Rate_Pulse
+R1
+!i10b 1
+!s100 DYUQlA[=k;AQXWgD>KL^;2
+IC>cEI71H[4l@9IEleG7Pz3
+R2
+w1679623374
+8C:/My_Designs/QuartusPrime/RISC_V_Multi_Cycle/src/Bit_Rate_Pulse.v
+FC:/My_Designs/QuartusPrime/RISC_V_Multi_Cycle/src/Bit_Rate_Pulse.v
+!i122 2
+R3
+R4
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/My_Designs/QuartusPrime/RISC_V_Multi_Cycle/src/Bit_Rate_Pulse.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/My_Designs/QuartusPrime/RISC_V_Multi_Cycle/src/Bit_Rate_Pulse.v|
+!i113 0
+R7
+R0
+n@bit_@rate_@pulse
+vControl_Signals
+R1
+!i10b 1
+!s100 P]^5e?FVzjTPGU98_N>o:0
+I_acVGZm6MPOdDc77=6m9o3
+R2
+w1680069532
+8C:/My_Designs/QuartusPrime/RISC_V_Multi_Cycle/src/Control_Signals.v
+FC:/My_Designs/QuartusPrime/RISC_V_Multi_Cycle/src/Control_Signals.v
+!i122 3
+L0 7 240
+R4
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/My_Designs/QuartusPrime/RISC_V_Multi_Cycle/src/Control_Signals.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/My_Designs/QuartusPrime/RISC_V_Multi_Cycle/src/Control_Signals.v|
+!i113 0
+R7
+R0
+n@control_@signals
+vControl_Unit
+R1
+!i10b 1
+!s100 dmYVa^=4:]hie`BWnW6C^1
+II_o4:[gQP5AK2Hg;_26Ye3
+R2
+w1680070348
+8C:/My_Designs/QuartusPrime/RISC_V_Multi_Cycle/src/Control_Unit.v
+FC:/My_Designs/QuartusPrime/RISC_V_Multi_Cycle/src/Control_Unit.v
+!i122 4
+L0 7 61
+R4
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/My_Designs/QuartusPrime/RISC_V_Multi_Cycle/src/Control_Unit.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/My_Designs/QuartusPrime/RISC_V_Multi_Cycle/src/Control_Unit.v|
+!i113 0
+R7
+R0
+n@control_@unit
+vCounter_Param
+R1
+!i10b 1
+!s100 PND9bPG?H;h=hl@Bei]?73
+I;lA;3C1UdZTYcBJl@aJJa2
+R2
+w1679623552
+8C:/My_Designs/QuartusPrime/RISC_V_Multi_Cycle/src/Counter_Param.v
+FC:/My_Designs/QuartusPrime/RISC_V_Multi_Cycle/src/Counter_Param.v
+!i122 5
+L0 6 23
+R4
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/My_Designs/QuartusPrime/RISC_V_Multi_Cycle/src/Counter_Param.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/My_Designs/QuartusPrime/RISC_V_Multi_Cycle/src/Counter_Param.v|
+!i113 0
+R7
+R0
+n@counter_@param
+vData_Memory
+R1
+!i10b 1
+!s100 <=6KY5>AJnB]_anQ>OM7j3
+IiQNk04V3PfY7EHJD5H0S20
+R2
+w1679783973
+8C:/My_Designs/QuartusPrime/RISC_V_Multi_Cycle/src/Data_Memory.v
+FC:/My_Designs/QuartusPrime/RISC_V_Multi_Cycle/src/Data_Memory.v
+!i122 6
+L0 7 34
+R4
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/My_Designs/QuartusPrime/RISC_V_Multi_Cycle/src/Data_Memory.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/My_Designs/QuartusPrime/RISC_V_Multi_Cycle/src/Data_Memory.v|
+!i113 0
+R7
+R0
+n@data_@memory
+vData_Path
+Z8 !s110 1680154251
+!i10b 1
+!s100 ;M?AS9fTcZiXij40N6KMP3
+I7c<C<][YmAVG6Lm=hoJzH1
+R2
+w1680062873
+8C:/My_Designs/QuartusPrime/RISC_V_Multi_Cycle/src/Data_Path.v
+FC:/My_Designs/QuartusPrime/RISC_V_Multi_Cycle/src/Data_Path.v
+!i122 7
+L0 7 385
+R4
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/My_Designs/QuartusPrime/RISC_V_Multi_Cycle/src/Data_Path.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/My_Designs/QuartusPrime/RISC_V_Multi_Cycle/src/Data_Path.v|
+!i113 0
+R7
+R0
+n@data_@path
+vDecoder
+R8
+!i10b 1
+!s100 d1?gST3V=S@CK:V_8gjYU2
+Ido_D419MBS8@58EiLzSzk2
+R2
+w1679272629
+8C:/My_Designs/QuartusPrime/RISC_V_Multi_Cycle/src/Decoder.v
+FC:/My_Designs/QuartusPrime/RISC_V_Multi_Cycle/src/Decoder.v
+!i122 8
+L0 1 44
+R4
+R5
+r1
+!s85 0
+31
+Z9 !s108 1680154251.000000
+!s107 C:/My_Designs/QuartusPrime/RISC_V_Multi_Cycle/src/Decoder.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/My_Designs/QuartusPrime/RISC_V_Multi_Cycle/src/Decoder.v|
+!i113 0
+R7
+R0
+n@decoder
+vDecoder_Onehot
+R8
+!i10b 1
+!s100 J^EzGKoW9=XHPCn=UU5;[2
+ISlL@g4B3:F@zMiCeIl=9H2
+R2
+w1677950309
+8C:/My_Designs/QuartusPrime/RISC_V_Multi_Cycle/src/Decoder_Onehot.v
+FC:/My_Designs/QuartusPrime/RISC_V_Multi_Cycle/src/Decoder_Onehot.v
+!i122 9
+L0 7 44
+R4
+R5
+r1
+!s85 0
+31
+R9
+!s107 C:/My_Designs/QuartusPrime/RISC_V_Multi_Cycle/src/Decoder_Onehot.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/My_Designs/QuartusPrime/RISC_V_Multi_Cycle/src/Decoder_Onehot.v|
+!i113 0
+R7
+R0
+n@decoder_@onehot
+vFF_D_2enable
+R8
+!i10b 1
+!s100 kzoB]]z<dYUL]PjVIRo1_3
+IN8SDncEDIfeeoL8lG;K]d1
+R2
+w1679624444
+8C:/My_Designs/QuartusPrime/RISC_V_Multi_Cycle/src/FF_D_2enable.v
+FC:/My_Designs/QuartusPrime/RISC_V_Multi_Cycle/src/FF_D_2enable.v
+!i122 10
+L0 6 22
+R4
+R5
+r1
+!s85 0
+31
+R9
+!s107 C:/My_Designs/QuartusPrime/RISC_V_Multi_Cycle/src/FF_D_2enable.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/My_Designs/QuartusPrime/RISC_V_Multi_Cycle/src/FF_D_2enable.v|
+!i113 0
+R7
+R0
+n@f@f_@d_2enable
+vFF_D_enable
+R8
+!i10b 1
+!s100 _Fm[o]<EJ@JIL?n2WWD5?0
+IeG<=8N@Hhjj`]mkEPNfm>3
+R2
+w1679624010
+8C:/My_Designs/QuartusPrime/RISC_V_Multi_Cycle/src/FF_D_enable.v
+FC:/My_Designs/QuartusPrime/RISC_V_Multi_Cycle/src/FF_D_enable.v
+!i122 11
+L0 6 18
+R4
+R5
+r1
+!s85 0
+31
+R9
+!s107 C:/My_Designs/QuartusPrime/RISC_V_Multi_Cycle/src/FF_D_enable.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/My_Designs/QuartusPrime/RISC_V_Multi_Cycle/src/FF_D_enable.v|
+!i113 0
+R7
+R0
+n@f@f_@d_enable
+vFSM_UART_rx
+R8
+!i10b 1
+!s100 KMFTY54>Q29<A::5ciNEN3
+IgkBK18h^^jQG``VI`no>81
+R2
+w1679623859
+8C:/My_Designs/QuartusPrime/RISC_V_Multi_Cycle/src/FSM_UART_rx.v
+FC:/My_Designs/QuartusPrime/RISC_V_Multi_Cycle/src/FSM_UART_rx.v
+!i122 12
+L0 3 159
+R4
+R5
+r1
+!s85 0
+31
+R9
+!s107 C:/My_Designs/QuartusPrime/RISC_V_Multi_Cycle/src/FSM_UART_rx.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/My_Designs/QuartusPrime/RISC_V_Multi_Cycle/src/FSM_UART_rx.v|
+!i113 0
+R7
+R0
+n@f@s@m_@u@a@r@t_rx
+vFSM_UART_tx
+R8
+!i10b 1
+!s100 >jUzzWHd2UfW^2Q;hDnn;2
+I8B9`MRZS`[3351<aaLOW@3
+R2
+w1679623501
+8C:/My_Designs/QuartusPrime/RISC_V_Multi_Cycle/src/FSM_UART_tx.v
+FC:/My_Designs/QuartusPrime/RISC_V_Multi_Cycle/src/FSM_UART_tx.v
+!i122 13
+L0 7 130
+R4
+R5
+r1
+!s85 0
+31
+R9
+!s107 C:/My_Designs/QuartusPrime/RISC_V_Multi_Cycle/src/FSM_UART_tx.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/My_Designs/QuartusPrime/RISC_V_Multi_Cycle/src/FSM_UART_tx.v|
+!i113 0
+R7
+R0
+n@f@s@m_@u@a@r@t_tx
+vGPIO
+R8
+!i10b 1
+!s100 mP;EC?d7ZdGbbSz3DB4=21
+IJEc14m@V5PTk68FU<[C941
+R2
+w1679624592
+8C:/My_Designs/QuartusPrime/RISC_V_Multi_Cycle/src/GPIO.v
+FC:/My_Designs/QuartusPrime/RISC_V_Multi_Cycle/src/GPIO.v
+!i122 14
+L0 1 32
+R4
+R5
+r1
+!s85 0
+31
+R9
+!s107 C:/My_Designs/QuartusPrime/RISC_V_Multi_Cycle/src/GPIO.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/My_Designs/QuartusPrime/RISC_V_Multi_Cycle/src/GPIO.v|
+!i113 0
+R7
+R0
+n@g@p@i@o
+vMemory_Controller
+R8
+!i10b 1
+!s100 FJW^4EX5fB[^o?i`?amAV2
+IQZGaG=FZFPDM<?OBBXl2=1
+R2
+w1679542669
+8C:/My_Designs/QuartusPrime/RISC_V_Multi_Cycle/src/Memory_Controller.v
+FC:/My_Designs/QuartusPrime/RISC_V_Multi_Cycle/src/Memory_Controller.v
+!i122 15
+Z10 L0 1 56
+R4
+R5
+r1
+!s85 0
+31
+R9
+!s107 C:/My_Designs/QuartusPrime/RISC_V_Multi_Cycle/src/Memory_Controller.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/My_Designs/QuartusPrime/RISC_V_Multi_Cycle/src/Memory_Controller.v|
+!i113 0
+R7
+R0
+n@memory_@controller
+vMemory_System
+R8
+!i10b 1
+!s100 7a_mH8PBHV5E>]_ea<6h@2
+IiV>7PSD=:N9>QJ1;YLjd`3
+R2
+w1679544105
+8C:/My_Designs/QuartusPrime/RISC_V_Multi_Cycle/src/Memory_System.v
+FC:/My_Designs/QuartusPrime/RISC_V_Multi_Cycle/src/Memory_System.v
+!i122 16
+L0 7 38
+R4
+R5
+r1
+!s85 0
+31
+R9
+!s107 C:/My_Designs/QuartusPrime/RISC_V_Multi_Cycle/src/Memory_System.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/My_Designs/QuartusPrime/RISC_V_Multi_Cycle/src/Memory_System.v|
+!i113 0
+R7
+R0
+n@memory_@system
+vMux
+Z11 !s110 1680154252
+!i10b 1
+!s100 <:mKLh]^EN=@=e;lIa;Da1
+ITBPNRBHK6EidbFg5604H>0
+R2
+w1677950986
+8C:/My_Designs/QuartusPrime/RISC_V_Multi_Cycle/src/Mux.v
+FC:/My_Designs/QuartusPrime/RISC_V_Multi_Cycle/src/Mux.v
+!i122 17
+L0 7 77
+R4
+R5
+r1
+!s85 0
+31
+R9
+!s107 C:/My_Designs/QuartusPrime/RISC_V_Multi_Cycle/src/Mux.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/My_Designs/QuartusPrime/RISC_V_Multi_Cycle/src/Mux.v|
+!i113 0
+R7
+R0
+n@mux
+vMux2x1
+R11
+!i10b 1
+!s100 37XD0UVW4g5I1RETNLF;z3
+Ie4L1a^VDn;XogoFnK2KNO3
+R2
+w1677949221
+8C:/My_Designs/QuartusPrime/RISC_V_Multi_Cycle/src/Mux2x1.v
+FC:/My_Designs/QuartusPrime/RISC_V_Multi_Cycle/src/Mux2x1.v
+!i122 18
+L0 7 16
+R4
+R5
+r1
+!s85 0
+31
+Z12 !s108 1680154252.000000
+!s107 C:/My_Designs/QuartusPrime/RISC_V_Multi_Cycle/src/Mux2x1.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/My_Designs/QuartusPrime/RISC_V_Multi_Cycle/src/Mux2x1.v|
+!i113 0
+R7
+R0
+n@mux2x1
+vMux4x1
+R11
+!i10b 1
+!s100 SR?W[:`k_LXfb>nh9IJm13
+IZJHfo`oamV30H]d@l4=a53
+R2
+w1677950534
+8C:/My_Designs/QuartusPrime/RISC_V_Multi_Cycle/src/Mux4x1.v
+FC:/My_Designs/QuartusPrime/RISC_V_Multi_Cycle/src/Mux4x1.v
+!i122 19
+L0 7 20
+R4
+R5
+r1
+!s85 0
+31
+R12
+!s107 C:/My_Designs/QuartusPrime/RISC_V_Multi_Cycle/src/Mux4x1.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/My_Designs/QuartusPrime/RISC_V_Multi_Cycle/src/Mux4x1.v|
+!i113 0
+R7
+R0
+n@mux4x1
+vProgram_Memory
+R11
+!i10b 1
+!s100 Y4e[_gAh9V^K7PbISEB:?1
+I8Z2C9EW4]^1gRXdA72T]>2
+R2
+w1680075059
+8C:/My_Designs/QuartusPrime/RISC_V_Multi_Cycle/src/Program_Memory.v
+FC:/My_Designs/QuartusPrime/RISC_V_Multi_Cycle/src/Program_Memory.v
+!i122 20
+L0 7 29
+R4
+R5
+r1
+!s85 0
+31
+R12
+!s107 C:/My_Designs/QuartusPrime/RISC_V_Multi_Cycle/src/Program_Memory.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/My_Designs/QuartusPrime/RISC_V_Multi_Cycle/src/Program_Memory.v|
+!i113 0
+R7
+R0
+n@program_@memory
+vReg_File
+R11
+!i10b 1
+!s100 g>fRNXBh?:nV[oeUMBBP[2
+IMliEW1P?8I[BzP^Y8C1h31
+R2
+w1679284944
+8C:/My_Designs/QuartusPrime/RISC_V_Multi_Cycle/src/Reg_File.v
+FC:/My_Designs/QuartusPrime/RISC_V_Multi_Cycle/src/Reg_File.v
+!i122 21
+L0 7 131
+R4
+R5
+r1
+!s85 0
+31
+R12
+!s107 C:/My_Designs/QuartusPrime/RISC_V_Multi_Cycle/src/Reg_File.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/My_Designs/QuartusPrime/RISC_V_Multi_Cycle/src/Reg_File.v|
+!i113 0
+R7
+R0
+n@reg_@file
+vReg_param
+R11
+!i10b 1
+!s100 RD7gR[CZzV=EeL=H`<X3C3
+I3LL]20FEfOM:f[]D]::^42
+R2
+w1679082830
+8C:/My_Designs/QuartusPrime/RISC_V_Multi_Cycle/src/Reg_param.v
+FC:/My_Designs/QuartusPrime/RISC_V_Multi_Cycle/src/Reg_param.v
+!i122 22
+L0 7 19
+R4
+R5
+r1
+!s85 0
+31
+R12
+!s107 C:/My_Designs/QuartusPrime/RISC_V_Multi_Cycle/src/Reg_param.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/My_Designs/QuartusPrime/RISC_V_Multi_Cycle/src/Reg_param.v|
+!i113 0
+R7
+R0
+n@reg_param
+vRegister
+R11
+!i10b 1
+!s100 ZH8;8Bzb0DEecH^E^Y6Lo1
+IRY1ghTo5ebbFIc4=H`_V:1
+R2
+w1679624317
+8C:/My_Designs/QuartusPrime/RISC_V_Multi_Cycle/src/Register.v
+FC:/My_Designs/QuartusPrime/RISC_V_Multi_Cycle/src/Register.v
+!i122 23
+L0 10 19
+R4
+R5
+r1
+!s85 0
+31
+R12
+!s107 C:/My_Designs/QuartusPrime/RISC_V_Multi_Cycle/src/Register.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/My_Designs/QuartusPrime/RISC_V_Multi_Cycle/src/Register.v|
+!i113 0
+R7
+R0
+n@register
+vRiscv_Multi_Cycle
+R11
+!i10b 1
+!s100 m7Y<RQhVVQFGzASA?@MG<0
+ILXneLO22XlBf>4cD]@NEF1
+R2
+w1680070722
+8C:/My_Designs/QuartusPrime/RISC_V_Multi_Cycle/src/Riscv_Multi_Cycle.v
+FC:/My_Designs/QuartusPrime/RISC_V_Multi_Cycle/src/Riscv_Multi_Cycle.v
+!i122 24
+L0 7 84
+R4
+R5
+r1
+!s85 0
+31
+R12
+!s107 C:/My_Designs/QuartusPrime/RISC_V_Multi_Cycle/src/Riscv_Multi_Cycle.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/My_Designs/QuartusPrime/RISC_V_Multi_Cycle/src/Riscv_Multi_Cycle.v|
+!i113 0
+R7
+R0
+n@riscv_@multi_@cycle
+vRiscv_Multi_Cycle_tb
+R11
+!i10b 1
+!s100 =Sn07<oJ]1[AAJf?[;BCf2
+I7=Ah?DNDIY9gjZ8fUfYka2
+R2
+w1679638166
+8C:/My_Designs/QuartusPrime/RISC_V_Multi_Cycle/src/Riscv_Multi_Cycle_tb.v
+FC:/My_Designs/QuartusPrime/RISC_V_Multi_Cycle/src/Riscv_Multi_Cycle_tb.v
+!i122 25
+L0 8 29
+R4
+R5
+r1
+!s85 0
+31
+R12
+!s107 C:/My_Designs/QuartusPrime/RISC_V_Multi_Cycle/src/Riscv_Multi_Cycle_tb.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/My_Designs/QuartusPrime/RISC_V_Multi_Cycle/src/Riscv_Multi_Cycle_tb.v|
+!i113 0
+R7
+R0
+n@riscv_@multi_@cycle_tb
+vrv32i_imm_gen
+R11
+!i10b 1
+!s100 nLD4?KJJ7kOSK[Q=g^e_C2
+ILbiJ]XJ>>30?ZQkO]6V?d3
+R2
+w1679464680
+8C:/My_Designs/QuartusPrime/RISC_V_Multi_Cycle/src/rv32i_imm_gen.v
+FC:/My_Designs/QuartusPrime/RISC_V_Multi_Cycle/src/rv32i_imm_gen.v
+!i122 26
+L0 1 69
+R4
+R5
+r1
+!s85 0
+31
+R12
+!s107 C:/My_Designs/QuartusPrime/RISC_V_Multi_Cycle/src/rv32i_imm_gen.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/My_Designs/QuartusPrime/RISC_V_Multi_Cycle/src/rv32i_imm_gen.v|
+!i113 0
+R7
+R0
+vRXshift_register
+R11
+!i10b 1
+!s100 JhX32:<I_j3@Khe:7ZHaC3
+I_UObne0fd1ALj8BS_^=Gh2
+R2
+w1679623917
+8C:/My_Designs/QuartusPrime/RISC_V_Multi_Cycle/src/RXshift_register.v
+FC:/My_Designs/QuartusPrime/RISC_V_Multi_Cycle/src/RXshift_register.v
+!i122 27
+L0 1 26
+R4
+R5
+r1
+!s85 0
+31
+R12
+!s107 C:/My_Designs/QuartusPrime/RISC_V_Multi_Cycle/src/RXshift_register.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/My_Designs/QuartusPrime/RISC_V_Multi_Cycle/src/RXshift_register.v|
+!i113 0
+R7
+R0
+n@r@xshift_register
+vTXshift_register
+Z13 !s110 1680154253
+!i10b 1
+!s100 ZWmCEL0LznnoZai[OaIS;0
+IRlAY719Re03_f=1o7T:=K1
+R2
+w1679623594
+8C:/My_Designs/QuartusPrime/RISC_V_Multi_Cycle/src/TXshift_register.v
+FC:/My_Designs/QuartusPrime/RISC_V_Multi_Cycle/src/TXshift_register.v
+!i122 28
+L0 1 29
+R4
+R5
+r1
+!s85 0
+31
+R12
+!s107 C:/My_Designs/QuartusPrime/RISC_V_Multi_Cycle/src/TXshift_register.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/My_Designs/QuartusPrime/RISC_V_Multi_Cycle/src/TXshift_register.v|
+!i113 0
+R7
+R0
+n@t@xshift_register
+vUART
+R13
+!i10b 1
+!s100 M`A^`7=6a30>mC43>0j7c3
+If@TAg64^aeS]Rj`:V@Aoh2
+R2
+w1679621450
+8C:/My_Designs/QuartusPrime/RISC_V_Multi_Cycle/src/UART.v
+FC:/My_Designs/QuartusPrime/RISC_V_Multi_Cycle/src/UART.v
+!i122 29
+R10
+R4
+R5
+r1
+!s85 0
+31
+Z14 !s108 1680154253.000000
+!s107 C:/My_Designs/QuartusPrime/RISC_V_Multi_Cycle/src/UART.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/My_Designs/QuartusPrime/RISC_V_Multi_Cycle/src/UART.v|
+!i113 0
+R7
+R0
+n@u@a@r@t
+vUART_RX
+R13
+!i10b 1
+!s100 kkP0oz@e>Fkm]138<0I]k0
+IZQ`XdNCc_;1:P?dXf1[;k1
+R2
+w1679623747
+8C:/My_Designs/QuartusPrime/RISC_V_Multi_Cycle/src/UART_RX.v
+FC:/My_Designs/QuartusPrime/RISC_V_Multi_Cycle/src/UART_RX.v
+!i122 30
+L0 1 51
+R4
+R5
+r1
+!s85 0
+31
+R14
+!s107 C:/My_Designs/QuartusPrime/RISC_V_Multi_Cycle/src/UART_RX.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/My_Designs/QuartusPrime/RISC_V_Multi_Cycle/src/UART_RX.v|
+!i113 0
+R7
+R0
+n@u@a@r@t_@r@x
+vUART_TX
+R13
+!i10b 1
+!s100 9WO_h@84<7T4CS1IbizCo0
+I71OKYAKn1:T2Gg2T1]0=?0
+R2
+w1679623316
+8C:/My_Designs/QuartusPrime/RISC_V_Multi_Cycle/src/UART_TX.v
+FC:/My_Designs/QuartusPrime/RISC_V_Multi_Cycle/src/UART_TX.v
+!i122 31
+L0 2 76
+R4
+R5
+r1
+!s85 0
+31
+R14
+!s107 C:/My_Designs/QuartusPrime/RISC_V_Multi_Cycle/src/UART_TX.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/My_Designs/QuartusPrime/RISC_V_Multi_Cycle/src/UART_TX.v|
+!i113 0
+R7
+R0
+n@u@a@r@t_@t@x

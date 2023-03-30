@@ -1,0 +1,43 @@
+module rv32i_itype_imm_gen (
+  input [6:0] opcode,
+  input [4:0] funct3,
+  input [6:0] rs1,
+  output reg [31:0] imm
+);
+
+  // Decode the instruction and generate the immediate value
+  always @* begin
+    case (opcode)
+      7'h03: // LOAD instructions
+        imm = {{20{rs1[31]}}, rs1[31:0] + {{11{0'b0}}, {8{funct3}}}};
+      7'h13: // IMMEDIATE instructions
+        case (funct3)
+          3'b000: // ADDI
+            imm = {{20{rs1[31]}}, rs1[31:0] + {{20{0'b0}}, {12{0'b0}}}};
+          3'b010: // SLTI
+            imm = {{20{rs1[31]}}, {{20{0'b0}}, {12{0'b0}}} - rs1[31:0]};
+          3'b011: // SLTIU
+            imm = {{20{0'b0}}, {{20{0'b0}}, {12{0'b0}}} - rs1[31:0]};
+          3'b100: // XORI
+            imm = {{20{0'b0}}, {{20{0'b0}}, {12{0'b0}}}};
+          3'b110: // ORI
+            imm = {{20{0'b0}}, {{20{0'b0}}, {12{0'b0}}}};
+          3'b111: // ANDI
+            imm = {{20{0'b0}}, {{20{0'b0}}, {12{0'b0}}}};
+          3'b001: // SLLI, SRLI, SRAI
+            case (rs1[4:0])
+              5'b00000: // SLLI
+                imm = {{25{0'b0}}, {5{0'b0}}, {6{funct3}}, {5{0'b0}}};
+              5'b00001: // SRLI, SRAI
+                if (funct3 == 3'b101) begin // SRAI
+                  imm = {{25{rs1[31]}}, {5{0'b0}}, {6{funct3}}, {5{0'b0}}};
+                end else begin // SRLI
+                  imm = {{25{0'b0}}, {5{0'b0}}, {6{funct3}}, {5{0'b0}}};
+                end
+              default:
+                // Unsupported instruction
+                imm = 0;
+            endcase
+        endcase
+    endcase
+  end

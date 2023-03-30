@@ -1,0 +1,93 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "clk_out",
+					"strict" : false
+				},
+				{
+					"name" : "GPIO_out[0]",
+					"strict" : false
+				},
+				{
+					"name" : "GPIO_out[1]",
+					"strict" : false
+				},
+				{
+					"name" : "GPIO_out[2]",
+					"strict" : false
+				},
+				{
+					"name" : "GPIO_out[3]",
+					"strict" : false
+				},
+				{
+					"name" : "GPIO_out[4]",
+					"strict" : false
+				},
+				{
+					"name" : "GPIO_out[5]",
+					"strict" : false
+				},
+				{
+					"name" : "GPIO_out[6]",
+					"strict" : false
+				},
+				{
+					"name" : "GPIO_out[7]",
+					"strict" : false
+				},
+				{
+					"name" : "uart_tx",
+					"strict" : false
+				},
+				{
+					"name" : "clk",
+					"strict" : false
+				},
+				{
+					"name" : "reset",
+					"strict" : false
+				},
+				{
+					"name" : "GPIO_in[5]",
+					"strict" : false
+				},
+				{
+					"name" : "GPIO_in[4]",
+					"strict" : false
+				},
+				{
+					"name" : "GPIO_in[6]",
+					"strict" : false
+				},
+				{
+					"name" : "GPIO_in[2]",
+					"strict" : false
+				},
+				{
+					"name" : "GPIO_in[3]",
+					"strict" : false
+				},
+				{
+					"name" : "GPIO_in[0]",
+					"strict" : false
+				},
+				{
+					"name" : "GPIO_in[1]",
+					"strict" : false
+				},
+				{
+					"name" : "GPIO_in[7]",
+					"strict" : false
+				},
+				{
+					"name" : "uart_rx",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

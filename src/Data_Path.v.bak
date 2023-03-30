@@ -1,0 +1,207 @@
+///////////////////////////////////////////////
+//Company: ITESO
+//Engineer: Antonio Rangel Avila  
+//Module Description: Data path, RISC-V 32bits multi-cycle,parameterized;
+//Date: March 4th 2023
+///////////////////////////////////////////////
+module Data_Path #(parameter DATA_WIDTH = 32)(
+//INPUTS
+input clk, reset,
+input [7:0] GPIO_i,
+
+//OUTPUTS
+ 
+output [7:0] GPIO_o,
+ 
+//CONTROL SIGNALS
+input IRWrite, 			//The instruction code is stored here
+input [2:0] ALUControl, //Add base address to offset
+input IorD,					//Load data from memory
+input RegWrite,         //Write Data to register file
+input ALUSrcA,          //Increment PC by 4 or 1 
+input [1:0] ALUSrcB,    //Increment PC by 4 or 1
+input MemWrite,         //Enhanced datapath for sw instruction
+input [1:0]RegDst,           //Enhanced datapath for R-type instruction
+input [1:0] MemtoReg,         //Enhanced datapath for R-type instruction
+input PCEn,					//enhanced for beq instruction
+input [1:0] PCSrc,    //enhanced for beq instruction
+
+output Zero,
+output [5:0] Op,
+output [5:0] Funct
+
+);
+
+wire [DATA_WIDTH-1:0] pc, pc_next;
+wire [DATA_WIDTH-1:0] ALUOut;
+wire [DATA_WIDTH-1:0] Adr;
+wire [DATA_WIDTH-1:0] Read_Data;
+wire [DATA_WIDTH-1:0] Instr;
+wire [DATA_WIDTH-1:0] Write_Data;
+wire [4:0] Write_Register;
+wire [DATA_WIDTH-1:0] Data;
+wire [DATA_WIDTH-1:0] rd1, rd2, a, b;
+wire [DATA_WIDTH-1:0] SrcA, SrcB;
+wire [DATA_WIDTH-1:0] ALUResult;
+wire [DATA_WIDTH-1:0] Sign_Imm;
+wire [DATA_WIDTH-1:0] Shifted_Imm;
+
+Reg_param  Pc (
+								 .rst(reset), 
+								 .clk(clk), 
+								 .enable(PCEn), 
+								 .D(pc_next), 
+								 .Q(pc)/*synthesis keep*/ 
+					);
+					
+Mux2x1 instr_or_data (
+								 .Selector(IorD),
+								 .I_0(pc),
+								 .I_1(ALUOut),
+								 .Mux_Out(Adr)
+						   );
+
+							
+Memory_System ROM_RAM (
+                         .clk(clk),
+								 .Write_Enable_i(MemWrite),
+								 .Write_Data_i(b),
+								 .Address_i(Adr),
+								 .Instruction_o(Read_Data)
+                      );
+			
+
+Reg_param Instruction_register (
+						               .rst(reset), 
+						               .clk(clk), 
+						               .enable(IRWrite),	
+						               .D(Read_Data),	
+						               .Q(Instr)
+				                   );
+
+Reg_param Data_register (
+											.rst(reset), 
+											.clk(clk), 
+											.enable(1'b1), 
+											.D(Read_Data), 
+											.Q(Data)
+								);
+								 
+Mux4x1  #(.DATA_WIDTH(5)) Rrt_or_Rrd (
+													.Selector(RegDst), 
+													.I_0(Instr[20:16]), 
+													.I_1(Instr[15:11]), 
+													.I_2(5'd31), 
+													.I_3(5'd0), 
+													.Mux_Out(Write_Register)
+												 );
+
+Mux4x1 Write_data_mux ( 
+													.Selector(MemtoReg), 
+													.I_0(ALUOut), 
+													.I_1(Data), 
+													.I_2({24'b0,GPIO_i}), 
+													.I_3(1'b0), 
+													.Mux_Out(Write_Data)
+						    );
+								
+							
+Reg_File Reg_file (
+													.A1(Instr[25:21]),  
+													.A2(Instr[20:16]), 
+													.A3(Write_Register),
+												   .rst(reset), .clk(clk), 
+											   	.WE3(RegWrite), .WD3(Write_Data),
+													.RD1(rd1), .RD2(rd2)
+                  );
+						
+//Reg_File	GPIO_Out_Register	(
+//											.clk(clk),
+//											.reset(reset),
+//											.enable	(((Write_Register == 5'd23) & !Src_A) ? 1'b1 : 1'b0),
+//											.d	(Write_Data),
+//											.q		(GPIO_o[7:0])
+//										);	
+						
+Reg_param A_Register (
+													.rst(reset), 
+													.clk(clk), 
+													.enable(1'b1), 
+													.D(rd1), 
+													.Q(a)
+							);
+							
+Reg_param B_Register (
+													.rst(reset), 
+													.clk(clk), 
+													.enable(1'b1), 
+													.D(rd2), 
+													.Q(b)
+							);
+							
+Sign_Extend	Sign_Ext	(
+									.Imm				(Instr[15:0]),
+									.Sign_Ext_Imm	(Sign_Imm)
+							);
+	
+Shift_Left_2 Branch_Shift	(
+											.Ext_Imm			(Sign_Imm),
+											.Shifted_Imm	(Shifted_Imm)
+									);
+							
+Mux2x1 mux_a_input   (
+								 .Selector(ALUSrcA),
+								 .I_0(pc),
+								 .I_1(a),
+								 .Mux_Out(SrcA)
+						   );
+							
+Mux4x1 mux_b_input    ( 
+													.Selector(ALUSrcB), 
+													.I_0(b), 
+													.I_1(1), 
+													.I_2(Sign_Imm), 
+													.I_3(Shifted_Imm), 
+													.Mux_Out(SrcB)
+						    );
+							 
+ALU Alu (
+													.Control(ALUControl),
+													.A(SrcA),
+													.B(SrcB),
+													.Result(ALUResult)
+        );
+		  
+Reg_param Result_register (
+													.rst(reset), 
+													.clk(clk), 
+													.enable(1'b1), 
+													.D(ALUResult), 
+													.Q(ALUOut)
+							);
+							
+//Shift_Left_2	#
+//						(
+//							.DATA_WIDTH	(28)
+//						)
+//						Jump_Shift	
+//						(
+//							.Ext_Imm			({2'b0,Instr[25:0]}),
+//							.Shifted_Imm	(PC_Jump)
+//						);
+							
+Mux4x1 Result_mux (
+								 .Selector(PCSrc),
+								 .I_0(ALUResult),
+								 .I_1(ALUOut),
+								 .I_2(1'b0),
+								 .I_3(1'b0),
+								 .Mux_Out(pc_next)
+						   );
+							
+assign Op = Instr[31:26];
+assign Funct = Instr[5:0];
+assign Zero = !ALUResult;
+
+					
+endmodule
